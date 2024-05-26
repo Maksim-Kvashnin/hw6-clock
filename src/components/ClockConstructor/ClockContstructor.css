@@ -1,0 +1,22 @@
+.container__form {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.form__label-title,
+.form__input-title,
+.form__label-time-zone,
+.form__input-time-zone {
+  display: block;
+}
+
+.form__input-title,
+.form__input-time-zone {
+  margin-top: 20px;
+}
+
+.clock-containerList {
+  display: flex;
+  flex-wrap: wrap;
+}
